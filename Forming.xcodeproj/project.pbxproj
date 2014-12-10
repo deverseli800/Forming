@@ -13,6 +13,21 @@
 		1A6DEB1C1A38E70C003809A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6DEB1B1A38E70C003809A6 /* Images.xcassets */; };
 		1A6DEB1F1A38E70C003809A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A6DEB1D1A38E70C003809A6 /* LaunchScreen.xib */; };
 		1A6DEB2B1A38E70C003809A6 /* FormingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB2A1A38E70C003809A6 /* FormingTests.swift */; };
+		1A6DEB831A38E74E003809A6 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB721A38E74E003809A6 /* Validation.swift */; };
+		1A6DEB841A38E74E003809A6 /* FullNameValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB731A38E74E003809A6 /* FullNameValidation.swift */; };
+		1A6DEB851A38E74E003809A6 /* PhoneNumberValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB741A38E74E003809A6 /* PhoneNumberValidation.swift */; };
+		1A6DEB861A38E74E003809A6 /* RequiredValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB751A38E74E003809A6 /* RequiredValidation.swift */; };
+		1A6DEB871A38E74E003809A6 /* EmailValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB761A38E74E003809A6 /* EmailValidation.swift */; };
+		1A6DEB881A38E74E003809A6 /* MinLengthValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB771A38E74E003809A6 /* MinLengthValidation.swift */; };
+		1A6DEB891A38E74E003809A6 /* MaxLengthValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB781A38E74E003809A6 /* MaxLengthValidation.swift */; };
+		1A6DEB8A1A38E74E003809A6 /* PasswordValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB791A38E74E003809A6 /* PasswordValidation.swift */; };
+		1A6DEB8B1A38E74E003809A6 /* ZipCodeValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB7A1A38E74E003809A6 /* ZipCodeValidation.swift */; };
+		1A6DEB8C1A38E74E003809A6 /* ValidationRuleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB7C1A38E74E003809A6 /* ValidationRuleType.swift */; };
+		1A6DEB8D1A38E74E003809A6 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB7D1A38E74E003809A6 /* Validator.swift */; };
+		1A6DEB8E1A38E74E003809A6 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB7E1A38E74E003809A6 /* ValidationError.swift */; };
+		1A6DEB8F1A38E74E003809A6 /* ValidationErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB7F1A38E74E003809A6 /* ValidationErrorType.swift */; };
+		1A6DEB901A38E74E003809A6 /* ValidationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB801A38E74E003809A6 /* ValidationFactory.swift */; };
+		1A6DEB911A38E74E003809A6 /* ValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DEB811A38E74E003809A6 /* ValidationRule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +51,21 @@
 		1A6DEB241A38E70C003809A6 /* FormingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A6DEB291A38E70C003809A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A6DEB2A1A38E70C003809A6 /* FormingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormingTests.swift; sourceTree = "<group>"; };
+		1A6DEB721A38E74E003809A6 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		1A6DEB731A38E74E003809A6 /* FullNameValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullNameValidation.swift; sourceTree = "<group>"; };
+		1A6DEB741A38E74E003809A6 /* PhoneNumberValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberValidation.swift; sourceTree = "<group>"; };
+		1A6DEB751A38E74E003809A6 /* RequiredValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequiredValidation.swift; sourceTree = "<group>"; };
+		1A6DEB761A38E74E003809A6 /* EmailValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailValidation.swift; sourceTree = "<group>"; };
+		1A6DEB771A38E74E003809A6 /* MinLengthValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinLengthValidation.swift; sourceTree = "<group>"; };
+		1A6DEB781A38E74E003809A6 /* MaxLengthValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxLengthValidation.swift; sourceTree = "<group>"; };
+		1A6DEB791A38E74E003809A6 /* PasswordValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordValidation.swift; sourceTree = "<group>"; };
+		1A6DEB7A1A38E74E003809A6 /* ZipCodeValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeValidation.swift; sourceTree = "<group>"; };
+		1A6DEB7C1A38E74E003809A6 /* ValidationRuleType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationRuleType.swift; sourceTree = "<group>"; };
+		1A6DEB7D1A38E74E003809A6 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		1A6DEB7E1A38E74E003809A6 /* ValidationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
+		1A6DEB7F1A38E74E003809A6 /* ValidationErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationErrorType.swift; sourceTree = "<group>"; };
+		1A6DEB801A38E74E003809A6 /* ValidationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFactory.swift; sourceTree = "<group>"; };
+		1A6DEB811A38E74E003809A6 /* ValidationRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationRule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +89,7 @@
 		1A6DEB061A38E70C003809A6 = {
 			isa = PBXGroup;
 			children = (
+				1A6DEB821A38E74E003809A6 /* lib */,
 				1A6DEB111A38E70C003809A6 /* Forming */,
 				1A6DEB271A38E70C003809A6 /* FormingTests */,
 				1A6DEB101A38E70C003809A6 /* Products */,
@@ -111,6 +142,37 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		1A6DEB7B1A38E74E003809A6 /* Validations */ = {
+			isa = PBXGroup;
+			children = (
+				1A6DEB721A38E74E003809A6 /* Validation.swift */,
+				1A6DEB731A38E74E003809A6 /* FullNameValidation.swift */,
+				1A6DEB741A38E74E003809A6 /* PhoneNumberValidation.swift */,
+				1A6DEB751A38E74E003809A6 /* RequiredValidation.swift */,
+				1A6DEB761A38E74E003809A6 /* EmailValidation.swift */,
+				1A6DEB771A38E74E003809A6 /* MinLengthValidation.swift */,
+				1A6DEB781A38E74E003809A6 /* MaxLengthValidation.swift */,
+				1A6DEB791A38E74E003809A6 /* PasswordValidation.swift */,
+				1A6DEB7A1A38E74E003809A6 /* ZipCodeValidation.swift */,
+			);
+			name = Validations;
+			sourceTree = "<group>";
+		};
+		1A6DEB821A38E74E003809A6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1A6DEB7B1A38E74E003809A6 /* Validations */,
+				1A6DEB7C1A38E74E003809A6 /* ValidationRuleType.swift */,
+				1A6DEB7D1A38E74E003809A6 /* Validator.swift */,
+				1A6DEB7E1A38E74E003809A6 /* ValidationError.swift */,
+				1A6DEB7F1A38E74E003809A6 /* ValidationErrorType.swift */,
+				1A6DEB801A38E74E003809A6 /* ValidationFactory.swift */,
+				1A6DEB811A38E74E003809A6 /* ValidationRule.swift */,
+			);
+			name = lib;
+			path = "/Users/cesardevers/Desktop/Forming/swift-validator/Validator";
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -212,8 +274,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A6DEB881A38E74E003809A6 /* MinLengthValidation.swift in Sources */,
+				1A6DEB831A38E74E003809A6 /* Validation.swift in Sources */,
+				1A6DEB861A38E74E003809A6 /* RequiredValidation.swift in Sources */,
+				1A6DEB911A38E74E003809A6 /* ValidationRule.swift in Sources */,
+				1A6DEB851A38E74E003809A6 /* PhoneNumberValidation.swift in Sources */,
+				1A6DEB871A38E74E003809A6 /* EmailValidation.swift in Sources */,
+				1A6DEB901A38E74E003809A6 /* ValidationFactory.swift in Sources */,
+				1A6DEB841A38E74E003809A6 /* FullNameValidation.swift in Sources */,
+				1A6DEB8D1A38E74E003809A6 /* Validator.swift in Sources */,
+				1A6DEB8F1A38E74E003809A6 /* ValidationErrorType.swift in Sources */,
+				1A6DEB8A1A38E74E003809A6 /* PasswordValidation.swift in Sources */,
 				1A6DEB171A38E70C003809A6 /* ViewController.swift in Sources */,
 				1A6DEB151A38E70C003809A6 /* AppDelegate.swift in Sources */,
+				1A6DEB891A38E74E003809A6 /* MaxLengthValidation.swift in Sources */,
+				1A6DEB8B1A38E74E003809A6 /* ZipCodeValidation.swift in Sources */,
+				1A6DEB8E1A38E74E003809A6 /* ValidationError.swift in Sources */,
+				1A6DEB8C1A38E74E003809A6 /* ValidationRuleType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
